@@ -3,17 +3,17 @@ output "project_id" {
   value       = data.google_project.project.project_id
 }
 
-output "project_number" {
+output "number" {
   description = "Google Cloud 프로젝트의 숫자 ID"
   value       = data.google_project.project.number
 }
 
-output "project_name" {
+output "name" {
   description = "Google Cloud 프로젝트의 이름"
   value       = data.google_project.project.name
 }
 
-output "project_labels" {
+output "labels" {
   description = "Google Cloud 프로젝트의 레이블"
   value       = data.google_project.project.labels
 }
